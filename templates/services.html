@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Services{% endblock title %}
+
+{% block body %}
+<div class="container my-3">
+<h1 class="my2 text-center"> Ice creams Services</h1>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <strong><h2>Select from our range of ice creams</h2></strong>
+    <p>Here you choose various types of ice creams. These ice creams are very tasty .... </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+            <img src="/static/chocolate icecream.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> All types of Chocolate falavours.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Offers</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+            <img src="/static/butterscotchicecream.jfif" class="d-block w-90" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> All types of Butterscotch falavours.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Offers</button>
+                      </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                    
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+            <img src="/static/mixedicecream.jfif" class="d-block w-90" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mixed falavours.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Offers</button>
+                      </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div> 
+    </div>
+{% endblock body %}
